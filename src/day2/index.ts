@@ -1,7 +1,5 @@
 import { Day } from "../day";
 import fs from 'fs';
-import _ from 'lodash';
-import path from "path";
 
 class Day2 extends Day {
 
@@ -10,7 +8,7 @@ class Day2 extends Day {
     }
 
     solveForPartOne(input: string): string {
-        const file = fs.readFileSync('inputs/day2/part1.txt', 'utf-8');
+        const file = fs.readFileSync('inputs/day3/part1.txt', 'utf-8')
         const lines = file.split('\n');
 
         let score = 0;
